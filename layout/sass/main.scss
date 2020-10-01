@@ -12,6 +12,7 @@
 
 html {
     box-sizing: border-box;
+    font-size: 15px;    
 }
 
 *, *:before, *:after {
@@ -46,12 +47,53 @@ h6 {
 
 .body {
     font-family: 'Georgia', sans-serif;
-    font-size: 14px;
+    font-size: .933rem;
     color: white;
 }
 
 .container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 2.666rem;
 }
+
+.h1 {
+    font-family: 'Georgia', sans-serif;
+    font-size: 2.93rem;
+    line-height: 130%;
+    font-weight: normal;
+}
+
+.h2 {
+    font-family: 'Georgia', sans-serif;
+    font-size: 2.333rem;
+    line-height: 130%;
+    color: $color-dark-l;
+    font-weight: normal;
+}
+
+.text {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    line-height: 160%;
+}
+
+.btn-ptimary {
+    color: $color-dark-3xl;
+    padding: 1rem 3.5rem;
+    font-family: 'Georgia';
+    font-size: 1.1rem;
+    line-height: 130%;
+    background-color: $color-primary;
+    border-radius: 6.66rem;
+}
+
+.btn-secondary {
+    color: $color-dark-3xl;
+    font-family: 'Georgia';
+    font-size: 1.113rem;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    border: 1.333rem solid $color-primary;
+    border-radius: .666rem;
+}   
